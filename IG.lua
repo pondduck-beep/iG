@@ -184,8 +184,8 @@ task.spawn(function()
 		end
 
 		local darkBlade =
-			backpack:FindFirstChild("Ichigo") or
-			char:FindFirstChild("Ichigo")
+			backpack:FindFirstChild("Soul Reaper") or
+			char:FindFirstChild("Soul Reaper")
 
 
 		if darkBlade then
@@ -195,7 +195,7 @@ task.spawn(function()
 
 		
 		else
-			local args = {"Equip","Ichigo"}
+			local args = {"Equip","Soul Reaper"}
 
 			ReplicatedStorage
 				:WaitForChild("Remotes")
