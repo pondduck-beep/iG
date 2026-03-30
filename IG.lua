@@ -243,46 +243,46 @@ end
 while true do
 
 	portal("Shibuya")
-	task.wait(0.3)
+	task.wait(0.05)
 	fasttp(CFrame.new(1400.0594482421875,8.486136436462402,484.9847106933594))
-	task.wait(0.3)
+	task.wait(0.05)
 
 	portal("HuecoMundo")
-	task.wait(0.3)
+	task.wait(0.05)
 	fasttp(CFrame.new(-369.4567565917969,-0.15934494137763977,1092.5155029296875))
-	task.wait(0.3)
+	task.wait(0.05)
 
 	portal("Shinjuku")
-	task.wait(0.3)
+	task.wait(0.05)
 	fasttp(CFrame.new(-17.37151527404785,1.8984041213989258,-1842.671630859375))
-	task.wait(0.3)
+	task.wait(0.05)
 
 	fasttp(CFrame.new(666.2935180664062,1.8831005096435547,-1692.1214599609375))
-	task.wait(0.3)
+	task.wait(0.05)
 
 	portal("Slime")
-	task.wait(0.3)
+	task.wait(0.05)
 	fasttp(CFrame.new(-1123.855224609375,13.91822624206543,368.31768798828125))
-	task.wait(0.3)
+	task.wait(0.05)
 
 	portal("Academy")
-	task.wait(0.3)
+	task.wait(0.05)
 	fasttp(CFrame.new(1068.37646484375,1.778355360031128,1277.8568115234375))
-	task.wait(0.3)
+	task.wait(0.05)
 
 	portal("Judgement")
-	task.wait(0.3)
+	task.wait(0.05)
 	fasttp(CFrame.new(-1270.6287841796875,1.177457332611084,-1192.44189453125))
-	task.wait(0.3)
+	task.wait(0.05)
 
 	portal("Ninja")
-        task.wait(0.3)
+        task.wait(0.05)
         fasttp(CFrame.new(-1877.98, 8.51, -736.60, -0.05, -0.00, -1.00, -0.00, 1.00, -0.00, 1.00, 0.00, -0.05))
-        task.wait(0.3)
+        task.wait(0.05)
 
 
 	portal("Lawless")
-        task.wait(0.3)
+        task.wait(0.05)
         fasttp(CFrame.new(50.10, 0.42, 1817.55, -0.51, 0.00, 0.86, -0.00, 1.00, -0.00, -0.86, -0.00, -0.51))
-        task.wait(0.3)
+        task.wait(0.05)
 end
