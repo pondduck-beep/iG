@@ -149,6 +149,7 @@ end)
 	"DisableVFX",
 	"DisableOtherVFX",
 	"RemoveTexture",
+	"EnableAutoRejoin",
 	"RemoveShadows"
 	}
 
