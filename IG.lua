@@ -1,6 +1,18 @@
 -- ของฟรียังอยากได้อีกมักมากนะมึง
 
 repeat task.wait(0.3) until game:IsLoaded()
+task.spawn(function()
+local TeleportService = game:GetService("TeleportService")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+-- ตรวจจับหน้าต่าง Disconnect
+game:GetService("GuiService").ErrorMessageChanged:Connect(function()
+    wait(2) -- รอให้หน้าต่างเด้งขึ้นมาเต็มที่
+    TeleportService:Teleport(game.PlaceId, LocalPlayer) -- ส่งตัวเรากลับเข้าแมพเดิม
+end)
+		end)
+
 
 -- =========================
 -- Inventory Log
